@@ -1,7 +1,8 @@
 package com.driver;
+
 public class Main {
     public static void main(String[] args) {
-        A obj = new B();
-        String string = obj.meth();
+        B obj = new B();
+        System.out.println(obj.meth());  // This will call the overridden meth method from class B
     }
 }
